@@ -1,0 +1,208 @@
+/*Navigation Settings*/
+nav{
+    background-color: rgb(116, 116, 232) !important;
+
+}
+#project-name, .nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+#project-name{
+    font-size: 24px;
+
+}
+.nav-link{
+    color: rgb(41, 28, 219) !important;
+
+}
+.nav-link:hover{
+    color: white !important; /*Bootstrap class'larını ezme*/
+    text-decoration: underline; /* alt çizgi*/
+    transition: 0.8s; /*Animasyon geçis süresi*/
+
+}
+
+    /* Slogan bar Settings */
+
+#slogan{
+        position: relative;
+        top: 62px;
+
+        text-align: center;
+        height: 30vh; /* Yuksekligi sayfanın 30% u kadar yapar*/
+        background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+          url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80");
+          color: white;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          background-attachment: fixed;
+          margin-bottom: 100px;
+      }
+
+/* How We Begin */
+
+.hr{
+    width: 5%;
+    padding: 0%;
+    border: none;
+    border-top: medium double rgb(27, 101, 114);; 
+    color: rgb(27, 101, 114);
+    text-align: center;   
+
+}
+
+hr:after {
+    content: "§"; 
+  display: inline-block; 
+  position: relative; 
+  top: -0.7em; 
+  font-size: 1.5em; 
+  padding: 0 0.25em; 
+  background: #fff;
+
+}
+
+
+/* Footer settings Start */
+
+/* Google Plus */
+#googleplus{
+    color: #EC3233;
+   transition: 0.3s;
+
+}
+
+#googleplus:hover{
+    color: #FFFFFF;
+    transition: 1s;
+
+}
+
+/* İnstagram */
+#instagram{
+    color: #CD298E;
+    transition: 0.3s;
+
+}
+
+#instagram:hover{
+    color: #FFFFFF;
+    transition: 1s;
+
+}
+
+/* LinkedIn */
+#linkedin{
+    color: #1873B9;
+    transition: 0.3s;
+
+}
+
+#linkedin:hover{
+    color: #FFFFFF;
+    transition: 1s;
+
+}
+
+
+      /* Footer Settings End */
+
+    
+      /* Team info Start */
+
+.team-members{
+    height: 250px;
+    width: 250px;
+
+}
+
+.team-member-contact{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    transition: 0.5s;
+
+}
+
+.team-member-contact:hover{
+    background-color: rgb(116, 116, 235);
+    transition: 0.5s;
+
+}
+
+#aboutFacebook{
+    color: rgb(13, 110, 253);
+    transition: 1s;
+
+}
+
+#aboutFacebook:hover{
+    color: white;
+    transition: 1s;
+
+}
+
+#aboutTwitter{
+    color: rgb(13, 202, 240);
+    transition: 1s;
+
+}
+
+#aboutTwitter:hover{
+    color: white;
+    transform: 1s;
+
+}
+
+#aboutİnstagram{
+    color: #CD298E;
+    transition: 1s;
+
+}
+
+#aboutİnstagram:hover{
+    color: white;
+    transition: 1s;
+
+}
+
+
+/* .size{
+    width: 300px ;
+    height:300px ;
+}
+
+@media screen and (max-width: 992px) {
+    .size {
+        width: 200px ;
+        height:200px ;
+        border-radius: 50%;
+    }
+    .bgchange{
+        background-color: cadetblue !important;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .size {
+        width: 150px ;
+        height:150px ;
+        border-radius: 0%;
+    }
+    .bgchange{
+        background-color: rgb(124, 115, 32) !important;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .size {
+        width: 100px ;
+        height:100px ;
+        border-radius: 50%;
+    }
+    .bgchange{
+        background-color: rgb(29, 27, 138) !important;
+    }
+  }
+ */
